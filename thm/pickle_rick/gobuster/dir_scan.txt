@@ -1,0 +1,19 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.170.159
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /home/derrick/CTF/SecLists-master/Discovery/Web-Content/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/06/22 17:20:39 Starting gobuster in directory enumeration mode
+===============================================================
+/assets               (Status: 301) [Size: 315] [--> http://10.10.170.159/assets/]
+/server-status        (Status: 403) [Size: 301]                                   
+===============================================================
+2022/06/22 18:36:41 Finished
+===============================================================

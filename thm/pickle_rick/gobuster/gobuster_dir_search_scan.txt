@@ -1,0 +1,49 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.71.159
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /home/derrick/CTF/SecLists-master/Discovery/Web-Content/dirsearch.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2022/06/24 11:15:46 Starting gobuster in directory enumeration mode
+===============================================================
+/.                    (Status: 200) [Size: 1062]
+/.htaccess.bak1       (Status: 403) [Size: 301] 
+/.htaccess-local      (Status: 403) [Size: 302] 
+/.htaccess.inc        (Status: 403) [Size: 300] 
+/.htaccess-dev        (Status: 403) [Size: 300] 
+/.htaccess            (Status: 403) [Size: 296] 
+/.htaccess.bak        (Status: 403) [Size: 300] 
+/.htaccess-marco      (Status: 403) [Size: 302] 
+/.htaccess.old        (Status: 403) [Size: 300] 
+/.htaccess.sample     (Status: 403) [Size: 303] 
+/.htaccessBAK         (Status: 403) [Size: 299] 
+/.htaccess.txt        (Status: 403) [Size: 300] 
+/.htaccess.save       (Status: 403) [Size: 301] 
+/.htaccess.orig       (Status: 403) [Size: 301] 
+/.htaccess/           (Status: 403) [Size: 297] 
+/.htaccessOLD2        (Status: 403) [Size: 300] 
+/.htm                 (Status: 403) [Size: 291] 
+/.htaccessOLD         (Status: 403) [Size: 299] 
+/.html                (Status: 403) [Size: 292] 
+/.htpasswd-old        (Status: 403) [Size: 300] 
+/.httr-oauth          (Status: 403) [Size: 298] 
+/.htpasswd.inc        (Status: 403) [Size: 300] 
+/.htpasswd.bak        (Status: 403) [Size: 300] 
+/.htpasswd/           (Status: 403) [Size: 297] 
+/.php                 (Status: 403) [Size: 291] 
+/.php3                (Status: 403) [Size: 292] 
+//                    (Status: 200) [Size: 1062]
+/assets/              (Status: 200) [Size: 2191]
+/icons/               (Status: 403) [Size: 293] 
+/index.html           (Status: 200) [Size: 1062]
+/login.php            (Status: 200) [Size: 882] 
+/robots.txt           (Status: 200) [Size: 17]  
+===============================================================
+2022/06/24 11:20:26 Finished
+===============================================================
